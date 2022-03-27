@@ -1,0 +1,13 @@
+[package]
+name = "seeeduino_xiao_ssd1315_text"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+xiao_m0 = "0.12"
+embedded-hal = "0.2.7"
+panic-halt = "0.2"
+embedded-graphics = "0.7.1"
+ssd1306 = "0.7"
